@@ -437,6 +437,10 @@ header {
             }
         }
 
+        .youtube-search, .voice-search {
+            display: none;
+        }
+
         .create-video {
             &.on {
                 section {
@@ -1120,6 +1124,9 @@ main {
                     button {
                         margin-right: 0;
                     }
+                }
+                .youtube-search, .voice-search {
+                    display: block;
                 }
             }
         }

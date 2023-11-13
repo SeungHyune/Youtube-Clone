@@ -12,7 +12,6 @@ $headerRight.addEventListener('click', e => {
     const $profile = document.querySelector('.profile');
     
     const parentDivAll = parentDiv.className.split(' ');
-    console.log(parentDivAll);
     if(parentDivAll.includes('create-video')) {
         $notice.classList.remove('on');
         $profile.classList.remove('on');
@@ -35,7 +34,6 @@ $headerLeft.addEventListener('click', (e) => {
     const $navWrapper = target.closest('.nav-wrapper');
    
     // nav 메뉴가 열렸을 때 메뉴가 아닌 곳 클릭 시 닫히도록 설정
-    console.log($navWrapper)
     if(window.innerWidth <= 1312 && $navWrapper == null) {
         $wrapper.classList.remove('on');
     }
