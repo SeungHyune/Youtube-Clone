@@ -3,6 +3,7 @@
 
 ## 💡 사이트
 https://youtube-rekoding.netlify.app/
+
 https://github.com/SeungHyune/Youtube-Clone/assets/114329713/165ecdc0-4632-418c-afc4-a6c2b91a1b53
 
 <br>
